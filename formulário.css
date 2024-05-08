@@ -4,6 +4,23 @@
 }
 #titulo{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: cadetblue;
-    margin-left: ;
+    color: darkslategray;
+    margin-left: 7%;
+}
+#subtitulo{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: darkslategrey;
+    margin-left: 10%;
+}
+fieldset{
+    border: 0;
+}
+body{
+    background-color: rgb(236, 255, 184);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1em;
+    color: darkslategrey;
+    margin-left: 36%;
+    margin-top: 2%;
+    justify-content: center;
 }
