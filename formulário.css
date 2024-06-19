@@ -40,25 +40,25 @@ input, select, textarea, button{
     clear: both;
 }
 .campo{
-    margin-bottom: 1em;
+    margin-bottom: 1%;
 }
 .campo label{
-    margin-bottom: 0.2em;
+    margin-bottom: 0.2%;
     color: darkslategray;
     display: block;
 }
 fieldset.grupo .campo{
     float: left;
-    margin-right: 1em;
+    margin-right: 1%;
 }
 .campo input[type="text"], .campo input[type="email"], .campo select, .campo textarea{
-    padding: 0.2em;
+    padding: 0.2%;
     border: 1px solid darkslategrey;
     box-shadow: 2px 2px 2px darkslategray;
     display: block;
 }
 .campo select option{
-    padding-right: 1em;
+    padding-right: 1%;
 }
 .campo input:focus, .campo select:focus, .campo textarea:focus{
     background: rgba(187, 204, 139, 0.884);
@@ -69,14 +69,9 @@ fieldset.grupo .campo{
     border: 0;
     margin-bottom: 1em;
     color: darkslategray;
-    padding: 0.2em 0.6em;
     box-shadow: 2px 2px 2px darkslategray;
     text-shadow: 1px 1px 1px darkolivegreen;
-    position: absolute;
-    top: 90%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
 }
 .botao:hover{
     background-color: rgba(187, 204, 139, 0.884);
